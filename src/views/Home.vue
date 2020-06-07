@@ -2,7 +2,7 @@
   <div class="home">
 <ul v-for="memo in newest" :key="memo.id">
   <li><router-link :to="{name: 'Edit', params:{ id: memo.id}}">
-  " {{ memo.body }}
+   {{ memo.body }}
   </router-link>
   </li>
 </ul>
